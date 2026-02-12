@@ -7,6 +7,7 @@ This project analyzes business sales data to identify:
 🌍 Regional (Country-wise) performance
 📊 Key business KPIs
 The goal is to transform raw transactional data into actionable business insights that support strategic decision-making.
+
 🎯 Business Objectives
 This analysis answers key business questions:
 How is revenue trending over time?
@@ -14,6 +15,7 @@ Which products generate the highest revenue?
 Which regions (countries) perform best?
 What is the average order value?
 Where should the company focus marketing and inventory efforts?
+
 🗂 Dataset Used
 Dataset Name: Online Retail Dataset
 Source: UCI Machine Learning Repository
@@ -26,6 +28,7 @@ InvoiceDate – Transaction date
 UnitPrice – Price per unit
 CustomerID – Unique customer ID
 Country – Customer location
+
 🛠 Technologies Used
 Python
 Pandas (Data manipulation)
@@ -40,6 +43,7 @@ Converted InvoiceDate to datetime format
 Created a new column:
 Revenue = Quantity × UnitPrice
 Extracted Year-Month for trend analysis
+
 📊 Key Analysis Performed
 1️⃣ Revenue Trend Analysis
 Monthly revenue calculation
@@ -54,17 +58,20 @@ Identified strongest performing markets
 Total Revenue
 Total Orders
 Average Order Value (AOV)
+
 📈 Key Insights
 The highest revenue-generating country contributes significantly to total sales.
 A small group of top products drives a large portion of total revenue.
 Revenue shows seasonal spikes indicating demand cycles.
 Average Order Value provides insights into customer purchasing behavior.
+
 💡 Business Recommendations
 Increase marketing investment in top-performing countries.
 Maintain higher inventory levels for top-selling products.
 Run promotions during historically low-performing months.
 Introduce bundle offers in high-revenue product segments.
 Focus customer retention strategies on high AOV customers.
+
 🚀 How to Run the Project
 1️⃣ Install Required Libraries
 pip install pandas matplotlib plotly
@@ -77,12 +84,14 @@ Or open Jupyter Notebook and run all cells.
 ├── online_retail.csv
 ├── sales_analysis.py
 ├── README.md
+
 📌 Future Improvements
 Add Customer RFM Analysis
 Build Sales Forecasting Model (ARIMA/Prophet)
 Deploy Interactive Dashboard using Streamlit
 Add Customer Segmentation (K-Means)
 Add Predictive Analytics using Machine Learning
+
 👨‍💻 Author
 Shivam Kumar
 Data Analyst | AI & ML Enthusiast
